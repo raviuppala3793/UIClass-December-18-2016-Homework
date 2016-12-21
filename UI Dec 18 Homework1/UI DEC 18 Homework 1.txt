@@ -1,0 +1,58 @@
+Homework 1 : 
+
+1)	what is version control tool?
+
+Version control tool is used to have track of the source code. which is part of code is edited, which line is edited, who is editing the source all this information can be monitored by this version control tool. This can control the risky thinhs like not having backups.
+
+There are 3 types of version control tools.
+1.	Local version control systems.
+
+In old days programmer’s version control is done by copying the files and editing this is so hard to remember the that which file he edited this is so risky. 
+
+2.	Centralized version control systems.
+
+In a software team coding is done in team work with other systems to overcome this problem this type is developed. These systems have a single server which stores all the versions of the source code with the timestamp this type is used for many years. 
+
+3.	Distributed version control systems. 
+
+For suppose in the centralized version systems if the server is corrupted all versions source code is lost. To overcome this problem there every system will act as server if one server is down and all repositories were copied to the server and restore it.
+
+
+2)	what is repository?
+
+Repository is database where the source code data is stored and edited it can also be accessed from anywhere.
+
+
+3)	why do we need to use repository in software development?
+
+Repository is like a folder in a system which consists of source code like for website there are many pages in a website like there are home web page about, contact us there are many different webpages of the website type. This all webpage content is stored in a folder this is called repository. It stores the changes that were made by developers in the code over time and allows to observe the changes and undo changes. Repository is used because all the source code is stored in one folder.
+
+4)	what is GIT? 
+
+It keeps track of versions and also who is making changes among group of people. GIT is a command line tool.
+
+5)	what is github?
+It is similar to GIT but Github is git repository hosting service this is graphical interface. GIT is command line interface.
+
+6)	differences between git and github?
+GIT:
+This is a revision control system 
+It runs at the command line on the machine.
+Git is a software that is installed in local computer.
+
+
+Github:
+this is a hosting service for git repository.
+It is a graphical interface.
+This is a website allows to upload the code to server.
+
+
+7)	what is pull, push, commit in git?
+
+Commit: it is a command that commits the staged snapshot.
+Pull:Pull is used to update the file with latest changes from the remote repository. 
+Push: push is used to transfer the commited files to remote repository from local repository.
+
+
+8) what are merge conflicts? 
+Two developers are editing the same code, where one developers is working same line of the other developer the problem is whether these edits will be committed correctly this occurs merge conflicts.
