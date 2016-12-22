@@ -1,0 +1,24 @@
+1.	How to resolve merge conflicts?
+Merge conflicts occur when a team member also working on the same file same line. In github conflicts are show with<<<<<<<< HEAD, =====, >>>>>>>>>> Conflict ID. To resolve the conflict by editing all lines with merge conflicts and remove our own edited line and push to remote repository.
+2.	What is html? How to create a html document
+The HTML abbreviation is hypertext markup language. From the abbreviation, we can see it’s a computer language, by this language web pages can be created which is writing in bunch of tags called html tags (head, title, body etc.)
+Html document is created through word document. When we open word document save it with the name and with extension .html   
+3.	What is doctype?
+DOCTYPE is a version declaration in the html webpage it is used because the browser identifies in which version the page is written because every version has set of rules. </!DOCTYPE html> this is the html5.
+4.	What is a tag and element in html?
+Tag is used to mark up the web page. Every we page is divided in to blocks, this blocks are defined by tags they are <html>,<head>,<body>. Every tag has starting tag(<html>) and ending tag(</html>).
+For suppose an example <h1>this heading h1</h1>  in this the whole line is a element but <h1> </h1> are tags.
+5.	What is an attribute in html?
+Attribute is used to define HTML elements and it is written in two parts name and value. Name is property and value for that property.
+6.	Create a simple html page? Write code.
+</!DOCTYPE html>
+<html>
+<head>
+	<title>This is a sample web page title </title>
+</head>
+<body>
+
+<h1>This is a sample web page</h1>
+
+</body>
+</html>
