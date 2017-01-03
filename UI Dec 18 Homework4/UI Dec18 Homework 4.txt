@@ -1,0 +1,56 @@
+Home work 4 -- December-21-2016
+
+explain with examples:
+
+1) how to create a list in html? orderlists and un orderlists
+   List can be created with li tag. List in html is of two types orderedlist and unordered list. 
+Ordered list is written with <ol> tag and closing tag with </ol> tags. 
+In between opening tag and closing tag list points is writing with list <li></li> 
+
+2) how to include images in html?
+
+Images are included in html with <img> tag and should add atrributes with src, alt,style(width and height).
+src- this atrribute is mandatory because we are mentioning where it is located.
+alt- this is because when image source file is no found, the message sepcified in this atrribute this is displayed in the page.
+style- if we want the image should be in a specific size(height and width) this atrribute is used.
+
+3) how to take user input in html?
+
+User input field is defined in <input> tag with attribute type and name. 
+Type: This is defined for textbox or checkbox or button
+Name: this is defined to view the text in the textbox
+
+4) how to have links to different web pages and link to differnt part of same webpage?
+Links in HTML is by <a> tag with atrribute href.
+href: This is to link the page which it should navigate.
+
+5) what is head, body, html element and why do we need them in the page?
+
+Every we page is divided into parts like head body html and head is container for all heading elements.
+
+<body> tag defines the document of the webpage, it contains of text, tables, images, ordered and unordered lists, hyperlinks.
+Html tag it is root of html page because all the tags are writing in between <html></html> tag.    
+
+
+6) what are semantic element, descibe about each one of them?
+
+The semantic elements are <article>,<aside>,<details>,<figcaption>,<figure>,<footer>,<header>
+<main>,<mark>,<nav>,<section>,<summary>,<time>
+
+<section>:  In pervious version of html Section tag it is written in div and a ID and class name is given to it. But in new versions to minimize that section tag is introduced. 
+<nav>: In every web page contains the navigating content like home about contact us this list is written in <nav> tag.
+<article>: this tag is to define independent content. For suppose a webpage contains information about cities every city information is written in this tag.
+<aside>: It is used as sidebar like it may contain like chapters list, in w3schools web site aside contains color picker.
+<details>: this tag can be viewed and hide. This tag is used to write the additional information.
+<figcaption>: This tag is is used to show the information about the picture desdription.
+<figure>: This is used when picture and figdescription is needed and figcaption is written under this tag.
+<header>: header tag is used to define a content which contains heading and content. 
+<footer>: This tag is mainly to define content about copyright information, website links, contact information.
+<main>: This is used when a unique content in the page there should not be more than one main tag.
+<mark>: This tag is used to color the text background this is used for highlighting purpose.
+<summary>: This tag is used for heading the hidden content.
+<time>: This tag defines a human readable date and time.
+
+
+all the code must be in index.html you may also have multiple .html or .txt as well
+all the description will in notepad.txt file in homework 4 folder
