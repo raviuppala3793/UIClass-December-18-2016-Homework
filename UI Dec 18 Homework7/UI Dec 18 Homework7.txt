@@ -1,0 +1,18 @@
+Home work 7 -- December-29-2016
+
+explain with examples
+
+1) what is the differences between id, class, attribute, tagName selectors and differences between them, when to use what
+2) what is css Specificity -- explain with all possible examples(of all variations)
+3) look into all css selectors  explain with examples
+	httpwww.w3schools.comcssrefcss_selectors.asp
+4) look into all css properties  explain with examples
+	httpwww.w3schools.comcssrefdefault.asp
+5) descendent selectors in css
+6) child selector in css
+7) adjacent sibiling selectors in css
+8) multiple selectors in css using , comma
+9) varaiations in attribite based selectors
+
+immeditely submit questions(1,2,5,6,7,8,9)
+progressively submit questions(3,4)

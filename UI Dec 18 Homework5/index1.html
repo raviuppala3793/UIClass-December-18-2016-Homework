@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+</head>
+<body>
+<form>
+	
+		<h2>The readonly Attribute</h2>
+		First name:<br><input type="text" name="firstname" value="Ravi">
+
+		<h2>The disabled Attribute</h2>
+		First name:<br>
+		<input type="text" name="firstname" value="Ravi" disabled>
+
+		<h2>The size Attribute</h2>
+		First name:<br>
+		<input type="text" name="firstname" value="Ravi" size="40">
+
+		<h2>The maxlength Attribute</h2>
+		First name:<br>
+		<input type="text" name="firstname" maxlength="10">
+
+		<h2>The autocomplete Attribute</h2>
+		First name:<input type="text" name="firstname"><br>
+		Last name: <input type="text" name="lastname"><br>
+		E-mail: <input type="email" name="email" autocomplete="off"><br>
+		<input type="submit">
+
+		<h2>The novalidate Attribute</h2>
+		E-mail: <input type="email" name="user_email">
+		  <input type="submit">
+
+		<h2>The autofocus Attribute</h2>
+		First name:<input type="text" name="firstname" autofocus>
+
+		<h2>The form Attribute</h2>
+		First name: <input type="text" name="firstname"><br>
+  		<input type="submit" value="Submit">
+
+		<h2>The formaction Attribute</h2>
+		First name: <input type="text" name="fname"><br>
+  		Last name: <input type="text" name="lname"><br>
+  		<input type="submit" value="Submit"><br>
+  		<input type="submit" formaction="index.html"
+  		value="Submit as admin">
+
+		<h2>The formenctype Attribute</h2>
+		First name: <input type="text" name="fname"><br>
+  		<input type="submit" value="Submit">
+  		<input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+
+		<h2>The formmethod Attribute</h2>
+		First name: <input type="text" name="fname"><br>
+  		Last name: <input type="text" name="lname"><br>
+  		<input type="submit" value="Submit">
+  		<input type="submit" formmethod="post" formaction="demo_post.asp"
+  		value="Submit using POST">
+
+		<h2>The formnovalidate Attribute</h2>
+		E-mail: <input type="email" name="userid"><br>
+  		<input type="submit" value="Submit"><br>
+  		<input type="submit" formnovalidate value="Submit without validation">
+
+		<h2>The formtarget Attribute</h2>
+		First name: <input type="text" name="fname"><br>
+  		Last name: <input type="text" name="lname"><br>
+  		<input type="submit" value="Submit as normal">
+  		<input type="submit" formtarget="_blank"
+  		value="Submit to a new window">
+
+		<h2>The height and width Attributes</h2>
+		<input type="image" src="logo.png" alt="Submit" width="100" height="100">
+
+		<h2>The list Attribute</h2>
+		<input list="course" name="crouse">
+		<datalist id="course">
+  		<option value="HTML">
+  		<option value="css">
+		<option value="JavaScript">
+  		<option value="AngularJS">
+  		<option value="NodeJs">
+  		</datalist>
+		<input type="submit">
+
+		<h2>The min and max Attributes</h2>
+		Enter a date before 1991-06-21:
+		<input type="date" name="bday" max="1991-06-20">
+
+		Enter a date after 2017-01-04:
+		<input type="date" name="bday" min="2017-01-05">
+
+
+
+		<h2>The multiple Attribute</h2>
+		Select images: <input type="file" name="img" multiple>
+
+		<h2>The pattern Atrribute</h2>
+		Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+
+		<h2>The placeholder Attribute</h2>
+		<input type="text" name="fname" placeholder="First name">
+
+
+		<h2>The required Attribute</h2>
+		Username: <input type="text" name="usrname" required>
+
+		<h2>The step Attribute</h2>
+		<input type="number" name="points" step="3">
+
+
+</form>
+
+
+
+
+
+</body>
+</html>

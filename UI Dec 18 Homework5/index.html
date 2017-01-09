@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework5</title>
+</head>
+
+<body>
+<form>
+
+	<h2>Input Type Text</h2>
+	First name:<br><input type="text" name="firstname"><br>
+    Last name:<br><input type="text" name="lastname">
+	
+
+	<h2>Input Type Password</h2>
+	User name:<br> <input type="text" name="username"><br>
+  	User password:<br><input type="password" name="psw">
+
+	<h2>Input Type Submit</h2>
+	
+	First name:<br><input type="text" name="firstname" value="Mickey"><br>
+  	Last name:<br><input type="text" name="lastname" value="Mouse"><br><br>
+  	<input type="submit" value="Submit">
+
+	<h2>Input Type Reset</h2>
+
+	First name:<br>
+  	<input type="text" name="firstname" value=""><br>
+  	Last name:<br>
+  	<input type="text" name="lastname" value=""><br>
+  	<input type="submit" value="Submit">
+  	<input type="reset">
+	
+
+	<h2>Input Type Radio</h2>
+	<input type="radio" name="gender" value="male" checked> Male<br>
+ 	<input type="radio" name="gender" value="female"> Female<br>
+ 
+
+
+	<h2> Checkbox type</h2>
+	Till date given Homeworks <br>
+	<input type="checkbox" name="Homework1" value="this is Homework1" onchange="checkbox()">Homework1<br>
+	<input type="checkbox" name="Homework2" value="this is Homework2" onclick="checkbox()">Homework2<br>
+	<input type="checkbox" name="Homework3" value="this is Homework3" onclick="checkbox()">Homework3<br>
+	<input type="checkbox" name="Homework4" value="this is Homework4" onclick="checkbox()">Homework4<br>
+	<input type="checkbox" name="Homework5" value="this is Homework5" onclick="checkbox()">Homework5<br>
+
+	<h2>Buttontype</h2>
+	<input type="button" value="Button Type" onclick="buttontype()"><br>
+
+	<h2>Input Type Number</h2>
+	No of Classes<input type="number" min="1" max="45">
+
+	<h2> Input Type Color</h2>
+	choose your color <input type="color" name="color"><br>
+
+	<h2> Input Type Date</h2>
+	Select your Birthday: <input type="date" name="Birthday">
+	Birthday (date and time): <input type="datetime-local" name="bdaytime">
+
+	<h2>Input Type Range</h2>
+  	<input type="range" name="points" min="0" max="10">
+
+  	<h2>Input Type Month</h2>
+  	<input type="month" name="bdaymonth">
+
+  	<h2>Input Type Week</h2>
+  	<input type="week" name="week_year">
+
+  	<h2>Input Type Time</h2>
+  	<input type="time" name="usr_time">
+
+  	<h2>Input Type Email</h2>
+  	 E-mail:<input type="email" name="email">
+
+
+  	 <h2>Input Type Search</h2>
+  	 Search Google:<input type="search" name="googlesearch">
+
+  	 <h2>Input Type Tel</h2>
+  	 Telephone:<input type="tel" name="usrtel">
+
+  	 <h2>Input Type Url</h2>
+  	 Add your homepage:<input type="url" name="homepage">
+
+
+</form>
+
+<script>
+	function buttontype() {
+		alert("you have clicked on button Type");
+	}
+
+	function checkbox() {
+		alert("selected Homework")
+	}
+
+</script>
+
+
+</body>
+</html>

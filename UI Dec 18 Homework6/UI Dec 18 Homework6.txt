@@ -1,0 +1,50 @@
+explain with examples:
+
+1) different types in css? 
+there are three types in css they are
+1. External: all the styles ar written in different file with extention .css what changes are made in this file it is reflected in webpage.
+2. Internal: In internal all the styles are written in the webpage itself but it is written in head section under style section.
+3. Inline: In line is specified in the tag but is specific to the tag itself.
+
+2) what is cascading in css?
+
+Three main sources of style information form a cascade. They are:
+
+1. The browser's default styles for the markup language.
+2. Styles specified by a user who is reading the document.
+3. The styles linked to the document by its author. These can be specified in three places:
+	External file: Method of defining styles.
+	Internal: use this method only for styles that are used only on that page.
+	Inline: this is the least maintainable method, but can be used for testing.
+
+3) why do we need to use css?
+The uses of CSS are
+1. CSS Helps avoid duplication
+2. we can make changes we easier.
+3. Allows you to make style changes in one place
+
+
+4) which type of css is a better practice?
+
+Inline styling is the least efficient and less used methods
+internal styling is good for single page application.
+External styling is most widely used type of styling in CSS.
+
+
+5) what are selectors and why do we need them in css?
+1. Type selectors
+This basic selector chooses all elements that matches the given name.
+
+2.Class selectors
+This basic selector chooses elements based on the value of their class attribute.
+
+3. ID selectors
+This basic selector chooses nodes based on the value of its id attribute. There should be only one element with a given ID in a document.
+
+4. Universal selectors
+This basic selector chooses all nodes. It also exists in a one-namespace only and in an all-namespace variant too.
+
+5. Attribute selectors
+This basic selector chooses nodes based on the value of one of its attributes.
+
+CSS use selectors to bind style properties to elements in the webpage.

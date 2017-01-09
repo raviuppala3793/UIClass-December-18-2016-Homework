@@ -1,0 +1,11 @@
+Home work 8 -- January-02-2016
+
+explain with examples:
+
+1) what are psuedo classes in css?
+2) what are pusedo elements in css?
+3) diff between pusedo classes and psuedo elements?
+4) explain all pusedo classes and elements with examples?
+    http://www.w3schools.com/cssref/css_selectors.asp
+5) what are media queries in css and how can you use them ?
+6) what is responsive web design?

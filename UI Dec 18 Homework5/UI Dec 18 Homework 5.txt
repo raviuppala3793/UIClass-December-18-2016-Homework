@@ -1,0 +1,98 @@
+explain with examples:
+
+1) explain all input types with examples
+
+(examples index.html)
+
+
+Text input: it accepts text it is mainly user name personal information like first name and last name.
+password input: It is same like text input but when we type it does not display what we are typing.
+Sumbit type: this is a button its function is to submit the text input.
+reset type: This is button its functionality is to clear all the text and password fields in the form.
+radio type: this is also a button but its visuality is diffenent its funcationality is to select only one option in given options.
+checkbox: this is similar to radio button but this let the user to select multiple options.
+Input button: this is to alert the user that you have pressed this button.
+Number input type: this type allow user to select number in a range. 
+date type: this allow user to pick a particular date like date of birth, date of joining.
+colortype: this ia color picker. this allow user to select a color.
+range type: this is range number picker user should should pick numbers within range.
+
+month type: this is similar to date picker but this is only for picking month.
+week type: this type allows user to pick a week in a particular month and year.
+time type: this type allow user to select a perfered time like car rental, motel booking online.
+datetime-local: this is combination of date and time type. this allow user to select date and time at a time.
+email: this allow user to input the email it allows only email it should contain extention like @gmail.com
+search type: this creates a text box which is connected to google search.
+tel type: this number which allows to type mobile or telephone number.
+url: this type is used to input webpage address. 
+
+
+2) explain all the input attributes?
+(examples index1.html)
+value attribute: with this we can initialize the value inline itself.
+readonly attribute: this atrribute is same as value atrribute it is initialized inline but can't change in the page.
+disabled attribute: if we initialize this attribute inline the user can't enter the value.
+size attribute: with this attribute can set the text box type size.
+maxlenght attribute: With this attribute we can set a character lenght and the text type accepts only that many characters.
+autocomplete attribute: this attribute can set the text input field auto fill on and off.
+novalidate attribute: this is form tag attribute and  this is used to set turn off validation.
+autofocus attribute: this attribute enables the mouse pointer in text input field when the page loads.
+form attribute: this attribute create as the form attribute.
+foraction attribute: this attribute is used to send the information in the text input to the server.
+formenctype attribute: this attribute used with submit and image only, this attribute is used how the data should be proceded.
+formmethod attribute: this attribute is used to send the data to action url. 
+formnovalidate attribute: this attribute overrides the novalidate attribute.
+formtarget attribute: with this attribute create the output to open another new tab.
+height and width attribute: with this we can set particular size of the image.
+list attribute: this attribute create a drop down list of any list mentioned in data list tag.
+min and max attribute: this attribute can create particular years in the years selecction. 
+multiple attribute: this attribute is used to upload or select more than one file if this attribute is used it accepts only one file.
+pattern attribute: this create a warning when it is not matched with the three letters.
+placeholder attribute: this attribute creates a hint in the text field what should be written in the field.
+required attribute: this attribute will create a warning if it left blank while submittion.
+step attribute: this is number attribute which gives a list of numbers with step3 like 0,3,6,9etc
+
+3) what are sematic elements ? 
+
+semantic elements clearly explaines about the structure and sets  all the different parts into one the web site. semantic elements are header,footer, nav, section, article, aside.
+
+4) diff between article, section, div
+
+Section: this is introducted in html5 it is similar to <div>. This tag is a container element. This <section> tag has a meaning.
+Div: this is a block level element and there is no meaning before html5 this element is used most.
+article: this is mainly used in the blog forums. 
+
+5) explain with exmaples about <article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time>
+
+(examples index2.html)
+<article>: this is used to specify the independent information like blog comment.
+<aside>: this is used to specific content with heading.
+<details>: this tag is used to hide and view the data.
+<figcaption>: this tag is used to give a description to image added.
+<figure>: with this tag, can add images and set the size for it like width and height.
+<footer>: with this tag we can define a footer for the page with this we can mention copyright information, author informatio.
+<header>: this tag holds introduction content in the webpage.
+<main>: This main tag specifies the main information content of the page.
+<mark>: this tag create a color on the background on which word this tag is mentioned
+<nav>: this tag create a navigation links bar.
+ <section>: With this tag it is defined as headers footers.
+ <summary>:this tag is used to write summary of the web page.
+<time>: which this we can set time but it is not shown in the web page.
+
+6) what are from and what is form validation in html?
+
+Form Validation is to get all information you want and making sure no field is left blank like
+In name field if we set the length it checks the length entered.
+Email field if we set a pattern for email field like it should end with @gmail.com, @yahoo.com.
+mobile number field if we set number length it checks the number length if it is short it gives warning. 
+
+7) differences between html4 and html5? explain in more details
+
+1. Simplified syntax: In html4 doctype element is to length but in html5 it is short <!DOCTYPE html>.
+2. Multimedia elements: In Html4 there are no multimedia elements which if we want to add it is added by third party plugins in html5 audio and video tags are introduced.
+3. GPS loacation: Now a days GPS detecting in web page is complulsory with html4 GPS can't be deteched but in html5 it can.
+4. Client Side Storage: In HTML4, in order to store consequential data on client side browsers cache was utilized. However, that cache is reduced and doesn’t support relational storage mechanism. 
+   In HTML5 this issue has been sloved with Web SQL database and application cache that can be used with HTML5’s JavaScript.
+5. client server Communication: In HTML4 the communication between the client and server was done through streaming and long polling.
+   HTML5 contains web sockets that sanction full duplex communication between clients and servers.
+6. There are so many tags and atrribute are introduced in html5 they are disscussed in 1,2 and 5 questions.
